@@ -3,7 +3,7 @@
 
 ### Ingesting Data
 ```
-wget https://raw.githubusercontent.com/cloudacademy/azure-data-lake-gen2/master/radio.json
+wget https://github.com/arifmarias/data-lake/blob/master/radio.json
 ```
 ```
 azcopy login
