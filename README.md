@@ -8,9 +8,16 @@ wget https://github.com/arifmarias/data-lake/blob/master/radio.json
 ```
 azcopy login
 ```
+or 
 ```
-azcopy copy 'radio.json' 'https://cadatalakegen2.dfs.core.windows.net/datalake/radio.json'
+azcopy login --tenant-id=9abad051-7ce5-4108-8b5c-5f7e198781c6
 ```
+To get the tenant-id you can go to Azure Active Directory > Propertise > Directory ID (Copy)
+
+```
+azcopy copy 'radio.json' 'https://datalakedemo200.blob.core.windows.net/datalake/radio.json'
+```
+Get your own Storage Account. 
 
 ### Accessing ADLS from Azure Databricks
 ```
