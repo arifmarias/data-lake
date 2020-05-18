@@ -1,8 +1,5 @@
 # Using Azure Data Lake Storage Gen2
-This file contains text you can copy and paste for the examples in Cloud Academy's _Using Azure Data Lake Storage Gen2_ course.  
 
-### Introduction
-[Azure Free Trial](https://azure.microsoft.com/free) 
 
 ### Ingesting Data
 ```
@@ -49,4 +46,3 @@ SELECT * from radio
 ### Summary
 [Azure Data Lake Storage Gen2 documentation](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)  
 [Azure Databricks documentation](https://docs.microsoft.com/azure/azure-databricks/)  
-support@cloudacademy.com
